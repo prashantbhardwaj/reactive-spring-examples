@@ -1,4 +1,4 @@
-package person.prashant.react.spring.demo;
+package person.prashant.react.spring.demo.mongo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,10 +16,10 @@ import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 
 @SpringBootApplication
-public class DemoApplication {
+public class DemoMongoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(DemoMongoApplication.class, args);
 	}
 
 }
